@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  height: 50px;
+  width: 100%;
+  background-color: #2d2727;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Navbar_logo {
+  padding: 1px;
+  font-size: 20px;
+}
+
+.Navbar ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Navbar ul li {
+  color: white;
+  justify-content: space-between;
+  padding: 0 10px;
+}
